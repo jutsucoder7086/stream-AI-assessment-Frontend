@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;          
+  margin: 0;  
+  background-image: url('https://media.istockphoto.com/id/1255325911/photo/top-of-wooden-table-on-blur-background-with-palm-tree-tropical-cafe-coffee-shop-bar-or.jpg?s=1024x1024&w=is&k=20&c=aa52nlfLz9xPrCUld2uiWJS7ivh7_b3om7KGvBEMWIo=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #494848aa;
+  z-index: -1;
+}

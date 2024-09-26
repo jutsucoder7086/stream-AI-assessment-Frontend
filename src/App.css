@@ -1,0 +1,47 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);  
+}
+
+.row {
+  display: contents;
+}
+
+.tile {
+  width: 20px;
+  aspect-ratio: 1/1;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tile.start {
+  background-color: green;
+}
+
+.tile.end {
+  background-color: red;
+}
+
+.tile.obstacle {
+  background-color: black; 
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.tile.path {
+  background-color: blue;
+}
+
+.values{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  height: 30px;
+  width: 100%;
+}
